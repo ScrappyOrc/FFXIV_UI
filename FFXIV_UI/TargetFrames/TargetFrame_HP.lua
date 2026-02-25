@@ -320,10 +320,7 @@ targetChanged()
 
     end
 
-
-    if event == "PLAYER_REGEN_ENABLED" and not UnitExists("target") then
-        clickFrame:EnableMouse(false)
-    end
+ 
 end)
 
 HideFrame()
