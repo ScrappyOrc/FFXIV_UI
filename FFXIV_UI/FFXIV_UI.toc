@@ -1,0 +1,46 @@
+## Interface: 120000,120001
+## Title: FFXIV UI
+## Notes: Final Fantasy XIV inspired HUD
+## Author: MojiTheMonk
+## Version: 1.0
+
+## OptionalDeps: Masque
+## SavedVariables: FFXIV_UI_DB
+## IconTexture: Interface\AddOns\FFXIV_UI\Media\Textures\Icon
+
+ 
+General/FFXIV_UI_Menu.lua
+General/ExperienceBar.lua
+General/EventText.lua
+General/SoundEffects.lua
+General/Minimap.lua
+General/QuestLog.lua
+
+PlayerFrames/PlayerFrame_HP.lua
+PlayerFrames/PlayerFrame_Power.lua
+PlayerFrames/PlayerFrame_Power_Secondary.lua
+PlayerFrames/PlayerFrame_Power_Stagger.lua
+PlayerFrames/PetFrame_HP.lua
+PlayerFrames/PlayerCastBar.lua
+PlayerFrames/PlayerCastBar_Empowered.lua
+
+ JobGauges/PaladinGauge.lua
+ JobGauges/WarlockGauge.lua
+ JobGauges/MonkGauge.lua
+ JobGauges/RogueGauge.lua
+ JobGauges/EvokerGauge.lua
+ JobGauges/MageGauge.lua
+ JobGauges/DeathKnightGauge.lua
+ JobGauges/FeralGauge.lua
+ 
+TargetFrames/TargetFrame_HP.lua
+TargetFrames/TargetFrame_CastBar.lua
+TargetFrames/TargetOfTargetFrame.lua
+TargetFrames/TargetAuras.lua
+TargetFrames/TargetDebuffs.lua
+TargetFrames/TargetArrow.lua
+
+
+
+
+
