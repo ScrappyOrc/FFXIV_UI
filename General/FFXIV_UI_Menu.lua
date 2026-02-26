@@ -15,6 +15,7 @@ local anchorConfigs = {
     { key = "TargetCast",    label = "Target Castbar",     w = 350, h = 30,  scale = 1.0, pos = {"TOP", 180, 0} },
     { key = "TargetHP",      label = "Target Health",      w = 670, h = 50,  scale = 1.0, pos = {"TOP", 0, -25} },
     { key = "TargetOfTarget",label = "Target of Target",   w = 340, h = 50,  scale = 1.0, pos = {"TOP", 505, -25} },
+    { key = "FocusTarget",   label = "Focus Target",       w = 340, h = 50,  scale = 1.0, pos = {"TOP", -505, -25} },
 }
 
 local visualBoxes = {}
